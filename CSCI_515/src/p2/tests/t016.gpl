@@ -1,2 +1,0 @@
-// 0 is not a legal size for an array
-int nums[0];

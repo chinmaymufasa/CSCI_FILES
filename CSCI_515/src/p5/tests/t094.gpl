@@ -1,5 +1,0 @@
-rectangle r(x=r.x);
-on akey
-{
-  r.x+=r.x;
-}

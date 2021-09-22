@@ -1,2 +1,0 @@
-triangle pyramid[3];
-int top=ziggurat[1].x; //error: undeclared variable

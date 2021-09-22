@@ -1,7 +1,0 @@
-
-circle c[3];
-
-on space
-{
-  c[0] = 14;
-}
