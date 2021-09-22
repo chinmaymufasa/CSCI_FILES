@@ -1,0 +1,95 @@
+//Chinmay Satpanthi
+
+forward animation move(circle wheel);
+forward animation sinewave(circle wheel);
+
+int window_width = 500;
+int window_height = 300;
+int num_periods = 1;
+int counter = 0;
+int i = 0;
+int num_of_tail = 50;
+double color = 0.0;
+int draw_order = 50;
+circle tail[num_of_tail];
+
+textbox marquis(text="Current period " + num_periods, x=10,y=10, blue=1.0);
+
+circle wheel(user_int=1, user_int2=1, radius=15, blue=0.0, animation_block=sinewave, drawing_order = 0);
+
+initialization
+{
+	
+	for(i=0; i < num_of_tail; i++){
+		//color = i / 50.0;
+		tail[i].radius = 15;
+		tail[i].blue = color;
+		tail[i].red = color;
+		tail[i].green = color;
+		tail[i].drawing_order = draw_order;
+		draw_order--;
+		color += 1.0 / 50.0;
+	}
+}
+
+on rightarrow
+{
+  num_periods++;
+  print(num_periods);
+  marquis.text = "Current period " + num_periods;
+}
+
+on leftarrow
+{
+  if (num_periods > 0){
+    num_periods--;
+  }
+  print(num_periods);
+  marquis.text = "Current period " + num_periods;
+}
+
+animation move(circle wheel)
+{
+  
+  if (wheel.x == window_width - (wheel.radius*2)){
+    wheel.user_int = -1;
+  }
+  if (wheel.y == window_height - (wheel.radius*2)){
+    wheel.user_int2 = -1;
+  }
+  if (wheel.x == 0){
+    wheel.user_int = 1;
+  }
+  if (wheel.y == 0){
+    wheel.user_int2 = 1;
+  }
+  wheel.x += 2 * wheel.user_int;
+  wheel.y += 1 * wheel.user_int2;
+}
+
+animation sinewave(circle wheel)
+{
+  
+  if (wheel.x == window_width - (wheel.radius*2)){
+    wheel.user_int = -1;
+  }
+  if (wheel.y == window_height - (wheel.radius*2)){
+    wheel.user_int2 = 1;
+  }
+  if (wheel.x == 0){
+    wheel.user_int = 1;
+  }
+
+  //if (wheel.y == 0){
+  //  wheel.user_int2 = -1;
+  //}
+
+  wheel.x += 2 * wheel.user_int;
+  wheel.y = floor((window_height-wheel.radius*2)/2.0 + (window_height-wheel.radius*2)/2.0 * sin(num_periods*360.0*wheel.x/window_width) * wheel.user_int2);
+	tail[counter%50].x = wheel.x;
+	tail[counter%50].y = wheel.y;
+	counter += 1;
+}
+
+
+

@@ -1,0 +1,416 @@
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
+Enter keyphrase: same
+==========================
+========== BOOK ==========
+==========================
+call number:  same
+title:        two
+subjects:     three
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== FILM ==========
+==========================
+call number:  same
+title:        two
+subjects:     three
+director:     four
+notes:        five
+year:         FILM object
+==========================
+========== VIDEO =========
+==========================
+call number:          same
+title:                two
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+======= PERIODICAL =======
+==========================
+call number:          same
+title:                two
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
+Enter keyphrase: ==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        same
+subjects:     three
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        same
+subjects:     three
+director:     four
+notes:        five
+year:         FILM object
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                same
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                same
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
+Enter keyphrase: ==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        two
+subjects:     same
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        two
+subjects:     same
+director:     four
+notes:        five
+year:         FILM object
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                two
+subjects:             same
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                two
+subjects:             same
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
+Enter keyphrase: ==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        same
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+director:     four
+notes:        same
+year:         FILM object
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                two
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                same
+series:               seven
+label:                eight
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                two
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                same
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
+Enter keyphrase: one
+==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+author:       BOOK object
+description:  
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        same
+subjects:     three
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        two
+subjects:     same
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        ten
+==========================
+========== BOOK ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+author:       BOOK object
+description:  five
+publisher:    six
+city:         seven
+year:         eight
+series:       nine
+notes:        same
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+director:     
+notes:        five
+year:         FILM object
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        same
+subjects:     three
+director:     four
+notes:        five
+year:         FILM object
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        two
+subjects:     same
+director:     four
+notes:        five
+year:         FILM object
+==========================
+========== FILM ==========
+==========================
+call number:  one
+title:        two
+subjects:     three
+director:     four
+notes:        same
+year:         FILM object
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                two
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                same
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                two
+subjects:             same
+description:          VIDEO object
+distributor:          five
+notes:                six
+series:               seven
+label:                eight
+==========================
+========== VIDEO =========
+==========================
+call number:          one
+title:                two
+subjects:             three
+description:          VIDEO object
+distributor:          five
+notes:                same
+series:               seven
+label:                eight
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                two
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                same
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                two
+subjects:             same
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                nine
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+==========================
+======= PERIODICAL =======
+==========================
+call number:          one
+title:                two
+subjects:             three
+author:               PERIODICAL object
+description:          five
+publisher:            six
+publishing history:   seven
+series:               eight
+notes:                same
+related titles:       ten
+other forms of title: eleven
+Govt doc number:      twelve
+1) call number 
+2) title 
+3) subject 
+4) other 
+5) exit 
