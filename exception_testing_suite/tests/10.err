@@ -1,0 +1,12 @@
+D<01>
+C<02-01>C<03-01>C<04-01>C<05-01>C<06-01>C<07-01>C<08-01>C<09-01>
+famousA.size()=3
+
+famousB.size()=5
+C<10-07>C<11-08>C<12-09>X<06>X<05>X<04>X<03>X<02>
+famousA.size()=3
+
+famousB.size()=3
+
+program ending
+X<12>X<11>X<10>X<09>X<08>X<07>X<01>

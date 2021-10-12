@@ -1,0 +1,7 @@
+D<01>
+C<02-01>C<03-01>C<04-01>C<05-01>C<06-01>C<07-01>C<08-01>C<09-01>C<10-01>C<11-01>
+size before push requiring reallocation=10
+C<12-02>C<13-03>C<14-04>C<15-05>C<16-06>C<17-07>C<18-08>C<19-09>C<20-10>C<21-11>X<11>X<10>X<09>X<08>X<07>X<06>X<05>X<04>X<03>X<02>C<22-01>
+size after push requiring reallocation=11
+program ending
+X<22>X<21>X<20>X<19>X<18>X<17>X<16>X<15>X<14>X<13>X<12>X<01>

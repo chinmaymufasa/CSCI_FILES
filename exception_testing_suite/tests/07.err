@@ -1,0 +1,7 @@
+D<01>
+C<02-01>C<03-01>C<04-01>C<05-01>C<06-01>
+before throw in copy construction:
+C<07-02>C<08-03>c<..-04>X<08>X<07>
+EXCEPTION CAUGHT
+program ending
+X<06>X<05>X<04>X<03>X<02>X<01>

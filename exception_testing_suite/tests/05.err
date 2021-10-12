@@ -1,0 +1,8 @@
+D<01>
+C<02-01>
+size before push that throws=1
+c<..-01>
+EXCEPTION CAUGHT
+size after push push that throws=1
+program ending
+X<02>X<01>
